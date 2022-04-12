@@ -1,6 +1,6 @@
 import { useState } from "react";
 //hook => Gancho
-
+//imutabilidade
 
 export function Counter() { 
     const [counter, setCounter] = useState(0);
@@ -8,6 +8,7 @@ export function Counter() {
 
 
     function increment() {
+        
         setCounter(counter + 1)
     }
 
